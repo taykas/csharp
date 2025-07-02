@@ -2,7 +2,17 @@
 
 public class Controlador
 {
-    public List<Elevador> Elevadores { get; set; } = [];
+    public Predio predio { get; set; }
+    public List<Pedido> Pedido { get; set; } = [];
+    public IAlgoritimo Algoritimo { get; set; }
+}
+
+public class Pedido
+{
+    public IPainel Painel { get; set; }
+    public Andar? Andar { get; set; }
+    public Elevador? Elevador { get; set; }
+    public string Tag { get; set; }
 }
 
 public interface IPainel
@@ -10,8 +20,13 @@ public interface IPainel
 
 }
 
+public interface IAlgoritimo
+{
+
+}
+
 public class Andar
-{ 
+{
     public int Numero { get; set; }
     public IPainel Painel { get; set; }
 }
