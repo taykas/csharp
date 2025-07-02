@@ -1,78 +1,80 @@
-﻿// Interface que simula o funcionamento de um elevador
-// o metodo é sempre quem esta recebendo a mensagem
-
-var predio = new Predio();
+﻿var predio = new Predio();
 var controlador = new Controlador();
 
-var AndarUm = new Andar
-{
-    Numero = 1,
+var andarUm = new Andar {
+    Numeracao = 1,
 };
-predio.Andares.Add(AndarUm);
-var painelUm = new PainelSimples(controlador, AndarUm);
-AndarUm.Painel = painelUm;
+predio.Andares.Add(andarUm);
+var painelUm = new PainelSimples(controlador, andarUm);
+andarUm.Painel = painelUm;
 
-var AndarDois = new Andar
-{
-    Numero = 2,
+var andarDois = new Andar {
+    Numeracao = 2,
 };
-predio.Andares.Add(AndarDois);
-var painelDois = new PainelSimples(controlador, AndarDois);
-AndarDois.Painel = painelDois;
+predio.Andares.Add(andarDois);
+var painelDois = new PainelSimples(controlador, andarDois);
+andarDois.Painel = painelDois;
 
-public class Controlador
-{
-    public Predio predio { get; set; }
-    public List<Pedido> Pedido { get; set; } = [];
-    public IAlgoritimo Algoritimo { get; set; }
-    public void Solicitar(Pedido pedido)
-    {
-        Pedidos.Add(pedido);
 
-        var rotas = Algoritimo.CalcularRota(pedido, Predio);
-        foreach (var (elevador, andar) in rotas)
-        {
-            elevador.MovimentarPara(andar);
-        }
-    }
-}
-
-public class Pedido
-{
-    public IPainel Painel { get; set; }
-    public Andar? Andar { get; set; }
-    public Elevador? Elevador { get; set; }
-    public string Tag { get; set; }
-}
+painelDois.Apertar("chamar");
 
 public interface IPainel
 {
-
+    void Apertar(string botao);
 }
 
-public class PainelSimples(Controlador controlador) : IPainel
+public class PainelSimples(Controlador controlador, Andar andar) : IPainel
 {
     public void Apertar(string botao)
     {
-        if(botao == "chamar")
+        if (botao == "chamar")
         {
-            controlador.Pedido.Add(new Pedido
-            {
-                
+            controlador.Pedidos.Add(new Pedido {
+                Andar = andar,
+                Elevador = null,
+                Tag = "chamar"
             });
         }
     }
 }
 
-public interface IAlgoritimo
+public interface IAlgoritmo
 {
-    Dictionary<Elevador, Andar> CalcularRota(List<Pedido> pedidos, List<Elevador> elevadores);
+    Dictionary<Elevador, Andar> CalcularRota(
+        List<Pedido> pedidos,
+        Predio predio
+    );
 }
 
 public class Andar
 {
-    public int Numero { get; set; }
+    public int Numeracao { get; set; }
     public IPainel Painel { get; set; }
+}
+
+public class Pedido
+{
+    public Andar? Andar { get; set; }
+    public Elevador? Elevador { get; set; }
+    public string Tag { get; set; }
+}
+
+public class Controlador
+{
+    public Predio Predio { get; set; }
+    public List<Pedido> Pedidos { get; set; } = [];
+    public IAlgoritmo Algoritmo { get; set; }
+
+    public void Solicitar(Pedido pedido)
+    {
+        Pedidos.Add(pedido);
+
+        var rotas = Algoritmo.CalcularRota(Pedidos, Predio);
+        foreach (var (elevador, andar) in rotas)
+        {
+            elevador.MovimentarPara(andar);
+        }
+    }
 }
 
 public class Predio
@@ -83,11 +85,12 @@ public class Predio
 
 public class Elevador
 {
-    public Queue<Pedido> Blabla = [];
+    Queue<Andar> proximos = [];
     public Andar Andar { get; set; }
+    public int Capacidade { get; set; }
     public IPainel Painel { get; set; }
     public Controlador Controlador { get; set; }
-    public int Capacidade { get; set; }
+
     public bool MovimentarPara(Andar alvo)
     {
         proximos.Enqueue(alvo);
