@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("InterfaceValidacao")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2206c3223d7e20a4e31a06b1358247251a01394f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ca9dd77d0c7e9b4eb67dc15b99df98b0f0b68634")]
 [assembly: System.Reflection.AssemblyProductAttribute("InterfaceValidacao")]
 [assembly: System.Reflection.AssemblyTitleAttribute("InterfaceValidacao")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

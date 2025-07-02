@@ -15,7 +15,6 @@ predio.Andares.Add(andarDois);
 var painelDois = new PainelSimples(controlador, andarDois);
 andarDois.Painel = painelDois;
 
-
 painelDois.Apertar("chamar");
 
 public interface IPainel
