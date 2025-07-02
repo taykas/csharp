@@ -1,0 +1,15 @@
+C:\Users\disrct\Desktop\csharp\InterfaceValidacao\CodTrevis\bin\Debug\net9.0\CodTrevis.exe
+C:\Users\disrct\Desktop\csharp\InterfaceValidacao\CodTrevis\bin\Debug\net9.0\CodTrevis.deps.json
+C:\Users\disrct\Desktop\csharp\InterfaceValidacao\CodTrevis\bin\Debug\net9.0\CodTrevis.runtimeconfig.json
+C:\Users\disrct\Desktop\csharp\InterfaceValidacao\CodTrevis\bin\Debug\net9.0\CodTrevis.dll
+C:\Users\disrct\Desktop\csharp\InterfaceValidacao\CodTrevis\bin\Debug\net9.0\CodTrevis.pdb
+C:\Users\disrct\Desktop\csharp\InterfaceValidacao\CodTrevis\obj\Debug\net9.0\CodTrevis.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\disrct\Desktop\csharp\InterfaceValidacao\CodTrevis\obj\Debug\net9.0\CodTrevis.AssemblyInfoInputs.cache
+C:\Users\disrct\Desktop\csharp\InterfaceValidacao\CodTrevis\obj\Debug\net9.0\CodTrevis.AssemblyInfo.cs
+C:\Users\disrct\Desktop\csharp\InterfaceValidacao\CodTrevis\obj\Debug\net9.0\CodTrevis.csproj.CoreCompileInputs.cache
+C:\Users\disrct\Desktop\csharp\InterfaceValidacao\CodTrevis\obj\Debug\net9.0\CodTrevis.sourcelink.json
+C:\Users\disrct\Desktop\csharp\InterfaceValidacao\CodTrevis\obj\Debug\net9.0\CodTrevis.dll
+C:\Users\disrct\Desktop\csharp\InterfaceValidacao\CodTrevis\obj\Debug\net9.0\refint\CodTrevis.dll
+C:\Users\disrct\Desktop\csharp\InterfaceValidacao\CodTrevis\obj\Debug\net9.0\CodTrevis.pdb
+C:\Users\disrct\Desktop\csharp\InterfaceValidacao\CodTrevis\obj\Debug\net9.0\CodTrevis.genruntimeconfig.cache
+C:\Users\disrct\Desktop\csharp\InterfaceValidacao\CodTrevis\obj\Debug\net9.0\ref\CodTrevis.dll
