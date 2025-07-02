@@ -1,0 +1,15 @@
+C:\Users\disrct\Desktop\csharp\InterfaceValidacao\bin\Debug\net9.0\InterfaceValidacao.exe
+C:\Users\disrct\Desktop\csharp\InterfaceValidacao\bin\Debug\net9.0\InterfaceValidacao.deps.json
+C:\Users\disrct\Desktop\csharp\InterfaceValidacao\bin\Debug\net9.0\InterfaceValidacao.runtimeconfig.json
+C:\Users\disrct\Desktop\csharp\InterfaceValidacao\bin\Debug\net9.0\InterfaceValidacao.dll
+C:\Users\disrct\Desktop\csharp\InterfaceValidacao\bin\Debug\net9.0\InterfaceValidacao.pdb
+C:\Users\disrct\Desktop\csharp\InterfaceValidacao\obj\Debug\net9.0\InterfaceValidacao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\disrct\Desktop\csharp\InterfaceValidacao\obj\Debug\net9.0\InterfaceValidacao.AssemblyInfoInputs.cache
+C:\Users\disrct\Desktop\csharp\InterfaceValidacao\obj\Debug\net9.0\InterfaceValidacao.AssemblyInfo.cs
+C:\Users\disrct\Desktop\csharp\InterfaceValidacao\obj\Debug\net9.0\InterfaceValidacao.csproj.CoreCompileInputs.cache
+C:\Users\disrct\Desktop\csharp\InterfaceValidacao\obj\Debug\net9.0\InterfaceValidacao.sourcelink.json
+C:\Users\disrct\Desktop\csharp\InterfaceValidacao\obj\Debug\net9.0\InterfaceValidacao.dll
+C:\Users\disrct\Desktop\csharp\InterfaceValidacao\obj\Debug\net9.0\refint\InterfaceValidacao.dll
+C:\Users\disrct\Desktop\csharp\InterfaceValidacao\obj\Debug\net9.0\InterfaceValidacao.pdb
+C:\Users\disrct\Desktop\csharp\InterfaceValidacao\obj\Debug\net9.0\InterfaceValidacao.genruntimeconfig.cache
+C:\Users\disrct\Desktop\csharp\InterfaceValidacao\obj\Debug\net9.0\ref\InterfaceValidacao.dll
