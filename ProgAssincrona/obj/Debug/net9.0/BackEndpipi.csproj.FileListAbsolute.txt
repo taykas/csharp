@@ -1,0 +1,15 @@
+C:\Users\disrct\Desktop\csharp\ProgAssincrona\obj\Debug\net9.0\BackEndpipi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\disrct\Desktop\csharp\ProgAssincrona\obj\Debug\net9.0\BackEndpipi.AssemblyInfoInputs.cache
+C:\Users\disrct\Desktop\csharp\ProgAssincrona\obj\Debug\net9.0\BackEndpipi.AssemblyInfo.cs
+C:\Users\disrct\Desktop\csharp\ProgAssincrona\obj\Debug\net9.0\BackEndpipi.csproj.CoreCompileInputs.cache
+C:\Users\disrct\Desktop\csharp\ProgAssincrona\obj\Debug\net9.0\BackEndpipi.sourcelink.json
+C:\Users\disrct\Desktop\csharp\ProgAssincrona\bin\Debug\net9.0\BackEndpipi.exe
+C:\Users\disrct\Desktop\csharp\ProgAssincrona\bin\Debug\net9.0\BackEndpipi.deps.json
+C:\Users\disrct\Desktop\csharp\ProgAssincrona\bin\Debug\net9.0\BackEndpipi.runtimeconfig.json
+C:\Users\disrct\Desktop\csharp\ProgAssincrona\bin\Debug\net9.0\BackEndpipi.dll
+C:\Users\disrct\Desktop\csharp\ProgAssincrona\bin\Debug\net9.0\BackEndpipi.pdb
+C:\Users\disrct\Desktop\csharp\ProgAssincrona\obj\Debug\net9.0\BackEndpipi.dll
+C:\Users\disrct\Desktop\csharp\ProgAssincrona\obj\Debug\net9.0\refint\BackEndpipi.dll
+C:\Users\disrct\Desktop\csharp\ProgAssincrona\obj\Debug\net9.0\BackEndpipi.pdb
+C:\Users\disrct\Desktop\csharp\ProgAssincrona\obj\Debug\net9.0\BackEndpipi.genruntimeconfig.cache
+C:\Users\disrct\Desktop\csharp\ProgAssincrona\obj\Debug\net9.0\ref\BackEndpipi.dll

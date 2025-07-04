@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "BackEndpipi/1.0.0": {
+        "runtime": {
+          "BackEndpipi.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BackEndpipi/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

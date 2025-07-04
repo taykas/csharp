@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\disrct\\Desktop\\csharp\\BackEndpipi\\BackEndpipi.csproj",
+      "projectUniqueName": "C:\\Users\\disrct\\Desktop\\csharp\\ProgAssincrona\\BackEndpipi.csproj",
       "projectName": "BackEndpipi",
-      "projectPath": "C:\\Users\\disrct\\Desktop\\csharp\\BackEndpipi\\BackEndpipi.csproj",
+      "projectPath": "C:\\Users\\disrct\\Desktop\\csharp\\ProgAssincrona\\BackEndpipi.csproj",
       "packagesPath": "C:\\Users\\disrct\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\disrct\\Desktop\\csharp\\BackEndpipi\\obj\\",
+      "outputPath": "C:\\Users\\disrct\\Desktop\\csharp\\ProgAssincrona\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\disrct\\AppData\\Roaming\\NuGet\\NuGet.Config"
