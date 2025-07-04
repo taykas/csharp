@@ -52,9 +52,13 @@ db.Add(compra);
 await db.SaveChangesAsync();
 
 var variavel = await db.Usuarios
+    .Include(u => u.Compras)
     .FirstOrDefaultAsync(u => u.Nome == "Anna Guerra");
-foreach(var comprinha in variavel.Compras)
-    Console.WriteLine(comprinha.Produto);
+db.Remove(variavel);
+await db.SaveChangesAsync();
+
+foreach (var comprinha in variavel.Compras)
+    Console.WriteLine(comprinha);
 
 // var query2 =
 //     from u in db.Usuarios
