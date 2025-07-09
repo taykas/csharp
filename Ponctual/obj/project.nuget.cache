@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "O9HpUHD3C1Q=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\disrct\\Desktop\\csharp\\Ponctual\\Ponctual.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\disrct\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.7\\microsoft.extensions.dependencyinjection.9.0.7.nupkg.sha512",
+    "C:\\Users\\disrct\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.7\\microsoft.extensions.dependencyinjection.abstractions.9.0.7.nupkg.sha512"
+  ],
+  "logs": []
+}
