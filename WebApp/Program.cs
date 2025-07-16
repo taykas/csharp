@@ -23,4 +23,11 @@ app.MapPut("valor/input", (int newValor = 0) =>
     return $"Valor incrementado! valor atual: {valor}";
 });
 
+// ao colocar entre chaves na url, o numero precisa ser colocado obrigatoriamente
+app.MapPut("valor/oto/{newValor}", (int newValor) =>
+{
+    valor += newValor;
+    return $"Valor incrementado! valor atual: {valor}";
+});
+
 app.Run();
