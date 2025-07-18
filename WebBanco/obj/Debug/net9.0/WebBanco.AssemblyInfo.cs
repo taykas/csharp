@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebBanco")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7323ee1ce25d234f88d90fa4e44fdae771dfadaf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0d921600d4b377a1f80a555af4f51ba1ea3ca465")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebBanco")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebBanco")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
